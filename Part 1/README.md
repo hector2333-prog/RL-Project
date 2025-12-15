@@ -1,4 +1,4 @@
-## Project Overview
+## 📖 Project Overview
 
 This part of the project focuses on **Reinforcement Learning (RL)** approaches applied to the Atari Pong environment. Two different RL algorithms are implemented, trained, and evaluated:
 
@@ -16,7 +16,7 @@ The code is organized into two main folders (`DQN/` and `A2C/`), each containing
 
 -----
 
-## Folder Structure Overview
+## 📂 Folder Structure Overview
 
 ```
 ├── A2C/
@@ -77,7 +77,7 @@ This script is responsible for **training the A2C agent** on the Pong environmen
 
 -----
 
-### `A2C_sweep.py`
+### 🔍 `A2C_sweep.py`
 
 This script is used for **hyperparameter tuning** of the A2C algorithm.
 
@@ -111,7 +111,7 @@ This directory stores **serialized neural network weights** for the A2C agent.
 
 -----
 
-### `videos/` (A2C)
+### 🎬 `videos/` (A2C)
 
 This folder contains **recorded evaluation episodes** of the trained A2C agent.
 
@@ -154,7 +154,7 @@ This script is responsible for **training the DQN agent**.
 
 -----
 
-### `DQN_sweep.py`
+### 🔍 `DQN_sweep.py`
 
 This script performs **hyperparameter sweeps** for the DQN algorithm.
 
@@ -182,7 +182,7 @@ Stores trained DQN model weights.
 
 -----
 
-### `videos/` (DQN)
+### 🎬 `videos/` (DQN)
 
 Contains gameplay recordings of the DQN agent during evaluation.
 
@@ -231,7 +231,7 @@ python A2C_sweep.py
 python DQN_sweep.py
 ```
 
-4. **Evaluate results**:
+4. 📊 **Evaluate results**:
 
 - Check saved models in `models/`.
 - Watch evaluation videos in `videos/` to visually assess agent performance.
