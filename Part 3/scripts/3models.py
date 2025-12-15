@@ -7,7 +7,6 @@ import gymnasium as gym
 import ale_py
 import datetime
 import glob
-print("hola")
 
 import wandb
 
