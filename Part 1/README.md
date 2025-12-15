@@ -88,7 +88,6 @@ This script is responsible for **training the A2C agent** on the Pong environmen
   - `best_critic.dat`
   - `final_actor.dat`
   - `final_critic.dat`
-
 -----
 
 ### 🔍 `A2C_sweep.py`
