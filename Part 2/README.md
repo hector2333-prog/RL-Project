@@ -1,4 +1,4 @@
-# Group 7 - Pong World Tournament Submission
+# Part 2: Pong World Tournament
 
 This repository contains the implementation for **Part 2** of the Machine Learning paradigms project. Our submission focuses on solving the **PettingZoo Pong** multi-agent environment using **Proximal Policy Optimization (PPO)**.
 
