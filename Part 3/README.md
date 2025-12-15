@@ -156,18 +156,16 @@ This will train and evaluate PPO, A2C, and DQN on the Air Raid environment, savi
 - Quantitative results (from `evaluations.npz`) should be complemented with qualitative inspection of gameplay videos.
 - This structure allows easy extension to additional environments or algorithms.
 - Wrapper Interactions and Design Constraints: 
-    Observation compatibility.
-    CropTopBar removes the score area from the Atari frame and produces an 84×84 grayscale image that preserves all gameplay-relevant visual information. This representation is compatible with pixel-based learning and reward shaping that relies on raw image intensities.
+    CropTopBar removes the score area from the Atari frame and produces an 84×84 grayscale image that preserves all gameplay-relevant visual information.
 
-    SemanticMaskObs, on the other hand, replaces the raw image with a three-channel binary mask representing enemies, bombs, and buildings. This removes pixel intensity information and introduces an object-centric representation. As a result, it is incompatible with wrappers that rely on grayscale pixel values.
-
-    In particular, AirRaidBuildingPenaltyWrapper detects building damage by tracking changes in pixel intensity in a specific image region. Since semantic masks do not contain intensity information, this penalty logic becomes invalid when SemanticMaskObs is used. Therefore, these two wrappers cannot be combined.
+    SemanticMaskObs, on the other hand, replaces the raw image with a three-channel binary mask representing enemies, bombs, and buildings. This removes pixel intensity information. As a result, it is incompatible with wrappers that rely on grayscale pixel values, like AirRaidBuildingPenaltyWrapper. These two wrappers cannot be combined.
 
     Reward shaping and normalization.
-    AirRaidBuildingPenaltyWrapper applies a small negative reward when building damage is detected. When this wrapper is active, reward normalization (VecNormalize) is disabled. Normalizing rewards would dynamically rescale the penalty, changing its intended meaning and potentially destabilizing learning. Disabling normalization ensures the penalty remains consistent and interpretable.
-
+    AirRaidBuildingPenaltyWrapper applies a small negative reward when building damage is detected. When this wrapper is active, reward normalization (VecNormalize) is disabled. Normalizing rewards would dynamically rescale the penalty.
     Wrapper ordering.
-    Wrapper order matters. Observation preprocessing must be applied before any reward-shaping wrapper that depends on visual content. Action wrappers must be applied before environment vectorization to ensure a consistent action space. Final wrapper configurations are carefully chosen to guarantee correct interactions and semantic consistency.
+    Wrapper order matters. Observation preprocessing must be applied before any reward-shaping wrapper that depends on visual content. Action wrappers must be applied before environment vectorization.
+
+- Rely on the report for more detailed information about our custom wrappers. Just take this considerations into account if you want to train the models.
 
 -----
 
