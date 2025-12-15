@@ -18,8 +18,62 @@ The project focuses on two main environments from the **Arcade Learning Environm
 *   **Pong** (Single & Multi-agent)
 *   **AirRaid** (Complex Environment)
 
-<div align="center">
-  <img src="./Part 1/DQN/videos/gif.gif" alt="DQN Gameplay" width="20%">
-  <img src="./Part 3/PPO/logs_ppo_air_raid/videos/gif2.gif" alt="PPO Gameplay" width="20%">
-</div
+<table align="center" style="border: none;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="./Part 1/DQN/videos/gif.gif" width="200" alt="Pong DQN" />
+      <br>
+      <b>Pong (DQN)</b>
+    </td>
+    <td align="center" style="border: none; padding-left: 20px;"> <!-- padding adds the gap -->
+      <img src="./Part 3/ppo/logs_ppo_air_raid/videos/gif2.gif" width="200" alt="AirRaid PPO" />
+      <br>
+      <b>AirRaid (PPO)</b>
+    </td>
+  </tr>
+</table>
 
+-----
+
+## 🎯 Project Components
+
+This repository is organized into three distinct parts, each tackling a specific RL challenge:
+
+| Part | Environment | Goal | Key Technologies |
+| :--- | :--- | :--- | :--- |
+| **01** | `PongNoFrameskip-v4` | Train an agent to beat the built-in CPU using custom implementations. | PyTorch, Wrappers |
+| **02** | `Pong (PettingZoo)` | **Multi-Agent Tournament**: Fine-tune an agent to compete against other students' agents. | PettingZoo, SuperSuit |
+| **03** | `AirRaid-v5` | Solve a complex environment using advanced, optimized libraries. | Stable Baselines 3, custom Wrappers |
+
+---
+
+## 📂 Repository Structure
+├── Part 1/ # Code for the custom Pong implementation (Part 1)
+├── Part 2/ # Code for the MARL Pong environment using SB3 (Part 2)
+├── Part 3/ # Code for the AirRaid environment using SB3 (Part 3)
+├── README.md # Project documentation
+└── .gitattributes # Git configuration
+
+---
+
+## 🛠️ Installation & Usage
+
+To replicate our results, ensure you have the required dependencies installed.
+
+### 1. Clone the repository
+git clone https://github.com/hector2333-prog/RL-Project.git
+cd RL-Project
+
+### 2. Install Dependencies
+We recommend using a virtual environment (Conda or venv).
+The exact dependencies for each specific part of the project are located inside their respective folder (e.g., installation instructions for part 1 are explained in the README file inside the folder Part 1).
+
+---
+
+## 👥 Authors
+
+*   **Víctor Brao** - *Developer & Researcher*
+*   **David Piera** - *Developer & Researcher*
+*   **Hector Salguero** - *Developer & Researcher*
+
+---
