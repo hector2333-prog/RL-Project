@@ -19,10 +19,7 @@ The project focuses on two main environments from the **Arcade Learning Environm
 *   **AirRaid** (Complex Environment)
 
 <div align="center">
-  <img src="./Part 1/DQN/videos/gif.gif" alt="Pong Gameplay" width="600">
-</div>
-
-<div align="center">
-  <img src="./A2C/videos/eval_ep_200.gif" alt="Pong Gameplay" width="600">
-</div>
+  <img src="./Part 1/DQN/videos/gif.gif" alt="DQN Gameplay" width="20%">
+  <img src="./Part 3/PPO/logs_ppo_air_raid/videos/gif2.gif" alt="PPO Gameplay" width="20%">
+</div
 
