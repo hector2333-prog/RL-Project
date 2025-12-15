@@ -1,4 +1,4 @@
-## Project Overview
+## Part 3: Solving a “complex” ALE environment
 
 This part of the project focuses on **comparing multiple Reinforcement Learning algorithms** on the **Atari Air Raid environment**. Three different algorithms are used:
 
