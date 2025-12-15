@@ -6,9 +6,12 @@
 ![Gymnasium](https://img.shields.io/badge/Gymnasium-Farama-black?style=for-the-badge&logo=openai&logoColor=white)
 [![Atari](https://img.shields.io/badge/Atari-Pong-red?style=for-the-badge&logo=atari&logoColor=white)](https://gymnasium.farama.org/environments/atari/pong/)
 
+<br>
+
 > **Course:** Paradigms of Machine Learning (Bachelor's Degree in AI)  
 > **Institution:** Universitat Autònoma de Barcelona (UAB)  
 > **Academic Year:** 2025-2026
+<br>
 
 ## 📖 Introduction
 
@@ -17,6 +20,9 @@ Welcome to our repository for the **Deep Reinforcement Learning (DRL)** project.
 The project focuses on two main environments from the **Arcade Learning Environment (ALE)**:
 *   **Pong** (Single & Multi-agent)
 *   **AirRaid** (Complex Environment)
+
+<br>
+<br>
 
 <table align="center" style="border: none;">
   <tr>
@@ -48,11 +54,16 @@ This repository is organized into three distinct parts, each tackling a specific
 ---
 
 ## 📂 Repository Structure
+
+<br>
+
+```
 ├── Part 1/ # Code for the custom Pong implementation (Part 1)
 ├── Part 2/ # Code for the MARL Pong environment using SB3 (Part 2)
 ├── Part 3/ # Code for the AirRaid environment using SB3 (Part 3)
 ├── README.md # Project documentation
 └── .gitattributes # Git configuration
+```
 
 ---
 
@@ -61,8 +72,11 @@ This repository is organized into three distinct parts, each tackling a specific
 To replicate our results, ensure you have the required dependencies installed.
 
 ### 1. Clone the repository
+
+```
 git clone https://github.com/hector2333-prog/RL-Project.git
 cd RL-Project
+```
 
 ### 2. Install Dependencies
 We recommend using a virtual environment (Conda or venv).
