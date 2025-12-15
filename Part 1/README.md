@@ -5,6 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![RL](https://img.shields.io/badge/Reinforcement_Learning-DQN_%26_A2C-orange?style=for-the-badge)
 ![WandB](https://img.shields.io/badge/Logging-WandB-yellow?style=for-the-badge&logo=weightsandbiases)
+[![Atari](https://img.shields.io/badge/Atari-Pong-red?style=for-the-badge&logo=atari&logoColor=white)](https://gymnasium.farama.org/environments/atari/pong/)
 
 ## 📖 Project Overview
 
@@ -20,11 +21,16 @@ Both approaches follow a similar workflow:
 3. **Saving trained models** (best and final checkpoints).
 4. **Evaluation and visualization** through recorded gameplay videos.
 
-The code is organized into two main folders (`DQN/` and `A2C/`), each containing algorithm-specific scripts, trained models, and evaluation outputs.
+<div align="center">
+  <img src="./DQN/videos/gif.gif" alt="Pong Gameplay" width="200">
+</div>
+
 
 -----
 
 ## 📂 Folder Structure Overview
+
+The code is organized into two main folders (`DQN/` and `A2C/`), each containing algorithm-specific scripts, trained models, and evaluation outputs.
 
 ```
 ├── A2C/
