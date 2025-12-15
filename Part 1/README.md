@@ -21,14 +21,10 @@ Both approaches follow a similar workflow:
 3. **Saving trained models** (best and final checkpoints).
 4. **Evaluation and visualization** through recorded gameplay videos.
 
-<!-- Replace the source below with your actual video path or URL -->
 <div align="center">
-  <img src="https://media.giphy.com/media/aTGwuEFyg6d8c/giphy.gif" alt="Pong Gameplay" width="600">
-  <br>
-  <em>(Replace this GIF with your "eval_ep_200.mp4" or recording)</em>
+  <img src="./DQN/videos/gif.gif" alt="Pong Gameplay" width="600">
 </div>
 
-<br>
 
 -----
 
