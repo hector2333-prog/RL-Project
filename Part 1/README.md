@@ -22,7 +22,7 @@ Both approaches follow a similar workflow:
 4. **Evaluation and visualization** through recorded gameplay videos.
 
 <div align="center">
-  <img src="./DQN/videos/gif.gif" alt="Pong Gameplay" width="600">
+  <img src="./DQN/videos/gif.gif" alt="Pong Gameplay" width="200">
 </div>
 
 
