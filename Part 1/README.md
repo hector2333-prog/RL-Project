@@ -1,3 +1,11 @@
+# Part 1: Solving the Pong Environment
+
+-----
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![RL](https://img.shields.io/badge/Reinforcement_Learning-DQN_%26_A2C-orange?style=for-the-badge)
+![WandB](https://img.shields.io/badge/Logging-WandB-yellow?style=for-the-badge&logo=weightsandbiases)
+
 ## 📖 Project Overview
 
 This part of the project focuses on **Reinforcement Learning (RL)** approaches applied to the Atari Pong environment. Two different RL algorithms are implemented, trained, and evaluated:
