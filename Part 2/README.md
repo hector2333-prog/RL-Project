@@ -1,5 +1,11 @@
 # Part 2: Pong World Tournament
 
+### Quick Spoiler
+
+We won the tournament in our university with the train_simultaneous.py, Simultaneous Rapid-Switching model! 🏆
+
+### Introducction
+
 This repository contains the implementation for **Part 2** of the Machine Learning paradigms project. Our submission focuses on solving the **PettingZoo Pong** multi-agent environment using **Proximal Policy Optimization (PPO)**.
 
 The project utilizes the standard **AEC API** and **SuperSuit wrappers** as specified in the course task requirements.
@@ -78,3 +84,9 @@ Custom Wrappers:
 Safety Masking: We mask the top 10 pixels of the observation to hide the scoreboard, preventing confusion from asymmetric numbers.
 
 Anti-Freeze: A heuristic in load_agents.py forces the agent to serve if inactive for 100 frames, preventing "Safety Stalemates."
+
+# Tournament results
+As previously said, we won the tournament. We can find some videos of our agents in the tournament (we were group 7) in the (file attach)
+
+
+
