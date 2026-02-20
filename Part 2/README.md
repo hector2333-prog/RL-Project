@@ -88,7 +88,7 @@ Safety Masking: We mask the top 10 pixels of the observation to hide the scorebo
 Anti-Freeze: A heuristic in load_agents.py forces the agent to serve if inactive for 100 frames, preventing "Safety Stalemates."
 
 # Tournament results
-As previously said, we won the tournament. We can find some videos of our agents in the tournament (we were group 7) in the (file attach)
+As previously said, we won the tournament. We can find some videos of our agents in the tournament (we were group 7) in tournament.pptx (file attached)
 
 
 
