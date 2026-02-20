@@ -28,7 +28,7 @@ The project is organized into three main directories distinguishing between base
 │       ├── round_200_Left.zip              # Final trained Left Agent
 │       └── round_200_Right.zip             # Final trained Right Agent
 │
-└── tournament.pptx                         #tournamnet results
+└── tournament.pptx                         # Tournamnet results
 │
 └── Training/
     ├── mirror_training.py                  # Experiment A: Generational Ladder
