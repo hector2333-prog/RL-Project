@@ -90,5 +90,4 @@ The exact dependencies for each specific part of the project are located inside 
 *   **David Piera** - *Developer & Researcher*
 *   **Hector Salguero** - *Developer & Researcher*
 *   **David Sanllehi** - *Developer & Researcher*
-
 ---
